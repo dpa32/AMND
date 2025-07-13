@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Library/Artifacts/97/97cb6be7e3dca0f73bb31956eb98b66b
 Library/Artifacts/97/97f82ca0498254d06bc061c582af3d36
 Library/Artifacts/98/987e9e539221db483e42e62dd583e89d
@@ -30361,3 +30362,36 @@ Library/UndoStack.bin
 Logs/AssetImportWorker0-prev.log
 Logs/AssetImportWorker1-prev.log
 UserSettings/Layouts/default-6000.dwlt
+=======
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# VS & Rider
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.pidb
+*.suo
+*.tmp
+*.userprefs
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Others
+*.apk
+*.aab
+*.log
+*.bak
+*.orig
+>>>>>>> 92780cd1f356bed7f33b0d7c7e318097e4ee801f
