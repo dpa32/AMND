@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\jiha\\##GAME\\AMND\\",
   "Documents": [
     {
@@ -13,6 +14,17 @@
     {
       "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|d:\\jiha\\##game\\amnd\\assets\\scripts\\dialogue\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|c:\\users\\dpa32\\documents\\github\\amnd\\assets\\scripts\\trpgsystem\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|c:\\users\\dpa32\\documents\\github\\amnd\\assets\\scripts\\trpgsystem\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 0380ca6ac4da8b7ac4de79fd74d238bd5e15aaa2
     }
   ],
   "DocumentGroupContainers": [
@@ -25,6 +37,7 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
+<<<<<<< HEAD
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Dialogue.cs",
@@ -36,10 +49,15 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T05:03:24.843Z",
               "EditorCaption": ""
+=======
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+>>>>>>> 0380ca6ac4da8b7ac4de79fd74d238bd5e15aaa2
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "CSVParser.cs",
               "DocumentMoniker": "D:\\jiha\\##GAME\\AMND\\Assets\\Scripts\\Dialogue\\CSVParser.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue\\CSVParser.cs",
@@ -48,11 +66,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T04:26:44.629Z",
+=======
+              "Title": "StateController.cs",
+              "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\StateController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TRPGSystem\\StateController.cs",
+              "ToolTip": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\StateController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TRPGSystem\\StateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T01:23:20.836Z",
+>>>>>>> 0380ca6ac4da8b7ac4de79fd74d238bd5e15aaa2
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "DialogueManager.cs",
               "DocumentMoniker": "D:\\jiha\\##GAME\\AMND\\Assets\\Scripts\\Dialogue\\DialogueManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue\\DialogueManager.cs",
@@ -61,6 +90,16 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T04:25:50.759Z",
+=======
+              "Title": "State.cs",
+              "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\State.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TRPGSystem\\State.cs",
+              "ToolTip": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\State.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TRPGSystem\\State.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T01:20:18.406Z",
+>>>>>>> 0380ca6ac4da8b7ac4de79fd74d238bd5e15aaa2
               "EditorCaption": ""
             }
           ]

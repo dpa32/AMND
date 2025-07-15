@@ -1,6 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline", "Unity.Timeline.csproj", "{4CAB555B-45EF-FC68-FB92-F4D3EFF7628E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PlasticSCM.Editor", "Unity.PlasticSCM.Editor.csproj", "{F34F753F-567B-BED1-CB4B-20AE4573E2AC}"
@@ -101,12 +102,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptablePacker", "Scripta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Collections.Editor", "Unity.Collections.Editor.csproj", "{7AFFEAB0-FFC1-947B-8F8B-C0A40FBB1400}"
 EndProject
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{A41B7E9E-73C4-CF0F-C3AC-B86055967892}"
+EndProject
+>>>>>>> 0380ca6ac4da8b7ac4de79fd74d238bd5e15aaa2
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{4CAB555B-45EF-FC68-FB92-F4D3EFF7628E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4CAB555B-45EF-FC68-FB92-F4D3EFF7628E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CAB555B-45EF-FC68-FB92-F4D3EFF7628E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -199,10 +205,13 @@ Global
 		{597C32D4-D97E-C6E6-F2C1-712A9958A5DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{597C32D4-D97E-C6E6-F2C1-712A9958A5DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{597C32D4-D97E-C6E6-F2C1-712A9958A5DB}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> 0380ca6ac4da8b7ac4de79fd74d238bd5e15aaa2
 		{A41B7E9E-73C4-CF0F-C3AC-B86055967892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A41B7E9E-73C4-CF0F-C3AC-B86055967892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A41B7E9E-73C4-CF0F-C3AC-B86055967892}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A41B7E9E-73C4-CF0F-C3AC-B86055967892}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{224A87F4-6ED0-A3F1-047A-78C52B2D5532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{224A87F4-6ED0-A3F1-047A-78C52B2D5532}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{224A87F4-6ED0-A3F1-047A-78C52B2D5532}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -307,6 +316,8 @@ Global
 		{7AFFEAB0-FFC1-947B-8F8B-C0A40FBB1400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AFFEAB0-FFC1-947B-8F8B-C0A40FBB1400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AFFEAB0-FFC1-947B-8F8B-C0A40FBB1400}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> 0380ca6ac4da8b7ac4de79fd74d238bd5e15aaa2
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
