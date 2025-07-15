@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\jiha\\##GAME\\AMND\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|d:\\jiha\\##game\\amnd\\assets\\scripts\\dialogue\\csvparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue\\csvparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CSVParser.cs",
+              "DocumentMoniker": "D:\\jiha\\##GAME\\AMND\\Assets\\Scripts\\Dialogue\\CSVParser.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue\\CSVParser.cs",
+              "ToolTip": "D:\\jiha\\##GAME\\AMND\\Assets\\Scripts\\Dialogue\\CSVParser.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue\\CSVParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T01:25:46.537Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
