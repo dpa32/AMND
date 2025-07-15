@@ -119,6 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!1 &325115340
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,6 +442,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570633727}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &580625962
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,6 +474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e0e62f1dd2a20944a5466fbec6f9f7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   characterSprite:
   - Face:
     - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
@@ -482,6 +486,8 @@ MonoBehaviour:
   RightCharacter: {fileID: 325115342}
   nameText: {fileID: 1107631784}
   chatText: {fileID: 570633729}
+=======
+>>>>>>> Stashed changes
 --- !u!114 &580625964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -509,6 +515,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &674719370
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,6 +861,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1107631782}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1163143847
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,6 +955,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &1189996598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,11 +1035,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1163143850}
   - {fileID: 580625965}
+<<<<<<< Updated upstream
   - {fileID: 449596066}
   - {fileID: 1189996601}
+=======
+>>>>>>> Stashed changes

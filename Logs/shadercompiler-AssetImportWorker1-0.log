@@ -2,9 +2,15 @@ Base path: 'C:/Program Files/Unity/Hub/Editor/6000.0.48f1/Editor/Data', plugins 
 Cmd: initializeCompiler
 
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 Unhandled exception: Protocol error - failed to read magic number. Error code 0x80000004 (Not connected). (transferred 0/4)
 
 Quitting shader compiler process
 =======
 >>>>>>> 0380ca6ac4da8b7ac4de79fd74d238bd5e15aaa2
+=======
+Unhandled exception: Protocol error - failed to read magic number. Error code 0x80000004 (Not connected). (transferred 0/4)
+
+Quitting shader compiler process
+>>>>>>> Stashed changes
