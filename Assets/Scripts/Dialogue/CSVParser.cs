@@ -17,7 +17,11 @@ public class CSVParser : MonoBehaviour
         {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             string[] lineData = textData[line].Split('/');
+=======
+            string[] lineData = textData[line].Split(',');
+>>>>>>> Stashed changes
 =======
             string[] lineData = textData[line].Split(',');
 >>>>>>> Stashed changes
@@ -39,7 +43,11 @@ public class CSVParser : MonoBehaviour
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         string[] typeData = textData[0].Split('/');
+=======
+        string[] typeData = textData[0].Split(',');
+>>>>>>> Stashed changes
 =======
         string[] typeData = textData[0].Split(',');
 >>>>>>> Stashed changes
@@ -54,6 +62,7 @@ public class CSVParser : MonoBehaviour
             Int32.Parse(typeData[3]),
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             Boolean.Parse(typeData[4]),
             chats
             );
@@ -62,11 +71,16 @@ public class CSVParser : MonoBehaviour
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
             Boolean.Parse(typeData[5]),
             chats
             );
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

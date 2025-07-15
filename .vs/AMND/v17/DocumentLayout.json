@@ -22,8 +22,11 @@
       "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> 0380ca6ac4da8b7ac4de79fd74d238bd5e15aaa2
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     },
@@ -31,6 +34,9 @@
       "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\assets\\scripts\\trpgsystem\\controllstateamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\controllstateamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -67,6 +73,7 @@
               "$type": "Document",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
 <<<<<<< HEAD
               "Title": "CSVParser.cs",
@@ -78,6 +85,9 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T04:26:44.629Z",
 =======
+=======
+              "DocumentIndex": 0,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 0,
 >>>>>>> Stashed changes
@@ -97,6 +107,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "DocumentIndex": 0,
@@ -119,6 +130,17 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T01:20:18.406Z",
 >>>>>>> 0380ca6ac4da8b7ac4de79fd74d238bd5e15aaa2
+=======
+              "DocumentIndex": 1,
+              "Title": "ControllStateAmount.cs",
+              "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
+              "ToolTip": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T04:38:40.732Z",
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 1,
               "Title": "ControllStateAmount.cs",
