@@ -17,12 +17,21 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     x: 0
     y: 43.2
     width: 1536
     height: 772.8
   m_ShowMode: 4
   m_Title: Console
+=======
+    x: 293.33334
+    y: 50
+    width: 1405.3334
+    height: 967.3334
+  m_ShowMode: 4
+  m_Title: Inspector
+>>>>>>> Stashed changes
 =======
     x: 293.33334
     y: 50
@@ -74,8 +83,13 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     width: 1536
     height: 772.8
+=======
+    width: 1405.3334
+    height: 967.3334
+>>>>>>> Stashed changes
 =======
     width: 1405.3334
     height: 967.3334
@@ -114,7 +128,11 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     width: 1536
+=======
+    width: 1405.3334
+>>>>>>> Stashed changes
 =======
     width: 1405.3334
 >>>>>>> Stashed changes
@@ -147,8 +165,13 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     y: 752.8
     width: 1536
+=======
+    y: 947.3334
+    width: 1405.3334
+>>>>>>> Stashed changes
 =======
     y: 947.3334
     width: 1405.3334
@@ -186,12 +209,21 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     width: 1536
     height: 716.8
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
   controlID: 115
+=======
+    width: 1405.3334
+    height: 911.3334
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 0
+  controlID: 37
+>>>>>>> Stashed changes
 =======
     width: 1405.3334
     height: 911.3334
@@ -239,12 +271,21 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     width: 1195.2
     height: 716.8
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
   controlID: 47
+=======
+    width: 1164
+    height: 911.3334
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 38
+>>>>>>> Stashed changes
 =======
     width: 1164
     height: 911.3334
@@ -293,8 +334,13 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     width: 1195.2
     height: 516
+=======
+    width: 1164
+    height: 638.6667
+>>>>>>> Stashed changes
 =======
     width: 1164
     height: 638.6667
@@ -332,8 +378,13 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     width: 314.4
     height: 516
+=======
+    width: 261.33334
+    height: 638.6667
+>>>>>>> Stashed changes
 =======
     width: 261.33334
     height: 638.6667
@@ -371,10 +422,17 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     x: 314.4
     y: 0
     width: 434.4
     height: 516
+=======
+    x: 261.33334
+    y: 0
+    width: 802.6666
+    height: 638.6667
+>>>>>>> Stashed changes
 =======
     x: 261.33334
     y: 0
@@ -420,10 +478,17 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     x: 748.8
     y: 0
     width: 446.39996
     height: 516
+=======
+    x: 1064
+    y: 0
+    width: 100
+    height: 638.6667
+>>>>>>> Stashed changes
 =======
     x: 1064
     y: 0
@@ -468,6 +533,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     y: 516
     width: 1195.2
     height: 200.79999
@@ -475,6 +541,8 @@ MonoBehaviour:
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 19}
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -509,10 +577,17 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     x: 1195.2
     y: 0
     width: 340.80005
     height: 716.8
+=======
+    x: 1164
+    y: 0
+    width: 241.33337
+    height: 911.3334
+>>>>>>> Stashed changes
 =======
     x: 1164
     y: 0
@@ -562,11 +637,14 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     x: 0
     y: 79.200005
     width: 313.4
     height: 490
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -577,6 +655,9 @@ MonoBehaviour:
     height: 612.6667
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -606,6 +687,9 @@ MonoBehaviour:
       m_ExpandedIDs: ce8dfefff8cffeff9cdafeff4ee6feff32eefeff5602ffff380affff4e15ffffee15ffff9816ffffc819ffff661fffff0020ffff9e20fffff42cffff
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -659,11 +743,14 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     x: 314.4
     y: 79.200005
     width: 432.4
     height: 490
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -674,6 +761,9 @@ MonoBehaviour:
     height: 612.6667
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -696,10 +786,17 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-162.66668701171876,"y":-26.666656494140626},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: -162.66669, y: -26.666656}
+=======
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-162.66668701171876,"y":-26.66668701171875},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -162.66669, y: -26.666687}
+>>>>>>> Stashed changes
 =======
       contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-162.66668701171876,"y":-26.66668701171875},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
@@ -1271,9 +1368,15 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: {x: 802.92993, y: 265.94705, z: -4.095913}
     speed: 2
     m_Value: {x: 802.92993, y: 265.94705, z: -4.095913}
+=======
+    m_Target: {x: 968.8496, y: 575.20056, z: -5.295514}
+    speed: 2
+    m_Value: {x: 968.8496, y: 575.20056, z: -5.295514}
+>>>>>>> Stashed changes
 =======
     m_Target: {x: 968.8496, y: 575.20056, z: -5.295514}
     speed: 2
@@ -1341,9 +1444,15 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: 410.44846
     speed: 2
     m_Value: 410.44846
+=======
+    m_Target: 589.17505
+    speed: 2
+    m_Value: 589.17505
+>>>>>>> Stashed changes
 =======
     m_Target: 589.17505
     speed: 2
@@ -1524,11 +1633,14 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     x: 748.8
     y: 79.200005
     width: 444.39996
     height: 490
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1539,6 +1651,9 @@ MonoBehaviour:
     height: 612.6667
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1600,11 +1715,14 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       width: 444.39996
       height: 469
     m_Scale: {x: 0.28932288, y: 0.28932288}
     m_Translation: {x: 222.19998, y: 234.5}
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1615,6 +1733,9 @@ MonoBehaviour:
     m_Translation: {x: 49, y: 295.83334}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1629,6 +1750,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       x: -768
       y: -810.5131
       width: 1536
@@ -1636,6 +1758,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 0.28932288
   m_LastWindowPixelSize: {x: 555.49994, y: 612.5}
+=======
+      x: -640
+      y: -3863.9456
+      width: 1280
+      height: 7727.891
+    m_MinimalGUI: 1
+  m_defaultScale: 0.0765625
+  m_LastWindowPixelSize: {x: 147, y: 919}
+>>>>>>> Stashed changes
 =======
       x: -640
       y: -3863.9456
@@ -1693,11 +1824,14 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     x: 0
     y: 595.2
     width: 1194.2
     height: 174.79999
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1708,6 +1842,9 @@ MonoBehaviour:
     height: 246.66669
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1738,7 +1875,11 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     - Assets/Resources
+=======
+    - Assets/Scripts/TRPGSystem
+>>>>>>> Stashed changes
 =======
     - Assets/Scripts/TRPGSystem
 >>>>>>> Stashed changes
@@ -1760,6 +1901,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - Assets/Resources
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\jiha\##GAME\AMND
@@ -1771,6 +1913,8 @@ MonoBehaviour:
     m_LastClickedID: 46652
     m_ExpandedIDs: 00000000b4ae00008eb00000b2b1000000ca9a3b
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1787,6 +1931,9 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000f0f100004c15010000ca9a3b
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1852,8 +1999,11 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_ExpandedInstanceIDs: c6230000b0cc00002acc000000000000
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1948,11 +2098,14 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     x: 1195.2001
     y: 79.200005
     width: 339.80005
     height: 690.8
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1963,6 +2116,9 @@ MonoBehaviour:
     height: 885.3334
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
