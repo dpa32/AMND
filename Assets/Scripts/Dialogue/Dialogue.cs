@@ -27,7 +27,7 @@ public class Chat
     }
 }
 
-public class Dialogue : MonoBehaviour
+public class Dialogue
 {
     public string SuceessScript;
     public int SuccessScore;

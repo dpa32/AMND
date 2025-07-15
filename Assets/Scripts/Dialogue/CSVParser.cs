@@ -15,7 +15,7 @@ public class CSVParser : MonoBehaviour
 
         for (int line = 1; line < textData.Length; line++)
         {
-            string[] lineData = textData[line].Split(',');
+            string[] lineData = textData[line].Split('/');
 
             Chat chat = new Chat(
                 Int32.Parse(lineData[0]),
@@ -29,17 +29,18 @@ public class CSVParser : MonoBehaviour
             chats.Add(chat);
         }
 
-        string[] typeData = textData[0].Split(',');
+        string[] typeData = textData[0].Split('/');
 
         Dialogue dialogue = new Dialogue(
             typeData[0],
             Int32.Parse(typeData[1]),
             typeData[2],
             Int32.Parse(typeData[3]),
-            Boolean.Parse(typeData[5]),
+            Boolean.Parse(typeData[4]),
             chats
             );
 
+        Debug.Log(dialogue);
         return dialogue;
     }
 }
