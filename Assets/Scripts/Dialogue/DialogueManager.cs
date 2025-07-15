@@ -5,10 +5,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 [System.Serializable]
 public class CharacterSprite
 {
@@ -18,26 +14,6 @@ public class CharacterSprite
 public class DialogueManager : MonoBehaviour
 {
     [SerializeField] private CharacterSprite[] characterSprite;
-=======
-public class DialogueManager : MonoBehaviour
-{
-    [SerializeField] private Sprite[][] characterSprite;// = new Sprite[11, 3];
->>>>>>> Stashed changes
-=======
-public class DialogueManager : MonoBehaviour
-{
-    [SerializeField] private Sprite[][] characterSprite;// = new Sprite[11, 3];
->>>>>>> Stashed changes
-=======
-public class DialogueManager : MonoBehaviour
-{
-    [SerializeField] private Sprite[][] characterSprite;// = new Sprite[11, 3];
->>>>>>> Stashed changes
-=======
-public class DialogueManager : MonoBehaviour
-{
-    [SerializeField] private Sprite[][] characterSprite;// = new Sprite[11, 3];
->>>>>>> Stashed changes
 
     [SerializeField] private Image leftCharacter;
     [SerializeField] private Image RightCharacter;
@@ -45,10 +21,6 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TMP_Text chatText;
 
     private Dialogue dialogue;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     private GameData gameData;
     private CSVParser CSV;
 
@@ -62,32 +34,9 @@ public class DialogueManager : MonoBehaviour
         CSV = GetComponent<CSVParser>();
 
         SetDialogue("test");
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-    private CSVParser CSV;
-
-    private int chatIndex;
-    private bool isProgress;
-
-    private void Start()
-    {
-        CSV = GetComponent<CSVParser>();
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     }
+
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -98,39 +47,14 @@ public class DialogueManager : MonoBehaviour
 
     public void NextChat()
     {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
         if (isProgress && dialogue != null)
         {
             if (chatIndex < dialogue.Chats.Count)
             {
                 leftCharacter.sprite = characterSprite[dialogue.Chats[chatIndex].LeftCharacter].Face[dialogue.Chats[chatIndex].LeftFace];
                 RightCharacter.sprite = characterSprite[dialogue.Chats[chatIndex].RightCharacter].Face[dialogue.Chats[chatIndex].RightFace];
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-        if (isProgress)
-        {
-            if (chatIndex < dialogue.Chats.Count)
-            {
-                leftCharacter.sprite = characterSprite[dialogue.Chats[chatIndex].LeftCharacter][dialogue.Chats[chatIndex].LeftFace];
-                RightCharacter.sprite = characterSprite[dialogue.Chats[chatIndex].RightCharacter][dialogue.Chats[chatIndex].RightFace];
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
                 nameText.text = dialogue.Chats[chatIndex].Name;
                 chatText.text = dialogue.Chats[chatIndex].Text;
 
@@ -139,19 +63,7 @@ public class DialogueManager : MonoBehaviour
             else
             {
                 chatIndex = 0;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
                 isProgress = false;
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 
                 if (dialogue.IsRoll)
                 {
@@ -160,53 +72,17 @@ public class DialogueManager : MonoBehaviour
                 else
                 {
                     SetDialogue(dialogue.SuceessScript);
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
                     gameData.PlayingScript = dialogue.SuceessScript;
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
                 }
             }
         }
 
     }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
     public void SetDialogue(string scrpitName)
     {
         dialogue = CSV.ParseDialog(scrpitName);
 
         isProgress = true;
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-
-    private void SetDialogue(string scrpitName)
-    {
-        dialogue = CSV.ParseDialog(scrpitName);
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     }
 }
