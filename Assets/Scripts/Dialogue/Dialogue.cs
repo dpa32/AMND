@@ -27,8 +27,12 @@ public class Chat
     }
 }
 
+<<<<<<< Updated upstream
 
 public class Dialogue
+=======
+public class Dialogue : MonoBehaviour
+>>>>>>> Stashed changes
 {
     public string SuceessScript;
     public int SuccessScore;
