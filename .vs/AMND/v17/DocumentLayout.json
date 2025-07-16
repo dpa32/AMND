@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\assets\\scripts\\trpgsystem\\stateamountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\stateamountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\assets\\scripts\\trpgsystem\\stateroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\stateroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\assets\\scripts\\trpgsystem\\settingwindowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\settingwindowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\assets\\scripts\\trpgsystem\\stateroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\stateroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\assets\\scripts\\trpgsystem\\stateenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\stateenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|c:\\users\\dpa32\\documents\\github\\amnd\\assets\\scripts\\trpgsystem\\stateenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\stateenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|c:\\users\\dpa32\\documents\\github\\amnd\\assets\\scripts\\trpgsystem\\stateamountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\stateamountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Library\\PackageCache\\com.unity.ugui@4027c60e8806\\Editor\\UGUI\\UI\\GraphicEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,13 +50,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "StateRoll.cs",
               "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\StateRoll.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TRPGSystem\\StateRoll.cs",
               "ToolTip": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\StateRoll.cs",
               "RelativeToolTip": "Assets\\Scripts\\TRPGSystem\\StateRoll.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAD4v0EAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAEwE8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T18:51:08.232Z",
               "EditorCaption": ""
@@ -69,14 +69,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\TRPGSystem\\SettingWindowController.cs",
               "ToolTip": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\SettingWindowController.cs",
               "RelativeToolTip": "Assets\\Scripts\\TRPGSystem\\SettingWindowController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T18:19:34.361Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "StateEnum.cs",
               "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\StateEnum.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TRPGSystem\\StateEnum.cs",
@@ -89,13 +89,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "StateAmountController.cs",
               "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\StateAmountController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TRPGSystem\\StateAmountController.cs",
               "ToolTip": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\StateAmountController.cs",
               "RelativeToolTip": "Assets\\Scripts\\TRPGSystem\\StateAmountController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAUwD0AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T04:38:40.732Z",
               "EditorCaption": ""

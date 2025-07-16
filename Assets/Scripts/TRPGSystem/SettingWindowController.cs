@@ -6,7 +6,7 @@ public class SettingWindowController : MonoBehaviour
     private GameObject window;
     void Start()
     {
-        //DisableWindow();
+        DisableWindow();
     }
 
     public void EnableWindow()

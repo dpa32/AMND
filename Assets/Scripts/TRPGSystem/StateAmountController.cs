@@ -29,7 +29,6 @@ public class StateAmountController : MonoBehaviour
 
     private void Minus(int stateID, int value)
     {
-        Debug.Log("Enter Minus");
         remainingAmount += value;
         remains.text = remainingAmount.ToString();
         stateScores[stateID] -= value;
@@ -46,7 +45,6 @@ public class StateAmountController : MonoBehaviour
     
     private void CheckMinus(int stateID, int value)
     {
-        Debug.Log("Enter CheckMinus");
         if (stateScores[stateID] == 0)
         {
             Debug.Log("최솟값 미만으로 설정 불가");

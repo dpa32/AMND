@@ -7287,7 +7287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   states: {fileID: 648446967}
-  diceImage: {fileID: 2677535951212507533, guid: 6e2704cb04a2718498ac1302765bb324, type: 3}
+  diceImagePrefab: {fileID: 2677535951212507533, guid: 6e2704cb04a2718498ac1302765bb324, type: 3}
   diceSpritesVer1:
   - {fileID: -532611515931210745, guid: 56950744fdc05ee4786bde828932757f, type: 3}
   - {fileID: 2538710642623207339, guid: 333ee12f131f8db499afdfc497915263, type: 3}
@@ -7318,12 +7318,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311354557}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 789.5246, y: 679.2939, z: -10.867165}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1683537630}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1352047287
 GameObject:
@@ -10298,6 +10298,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1311354559}
   - {fileID: 1195813693}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12896,4 +12897,3 @@ SceneRoots:
   - {fileID: 1683537630}
   - {fileID: 1222597260}
   - {fileID: 1221535619}
-  - {fileID: 1311354559}

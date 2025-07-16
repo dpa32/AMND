@@ -10,49 +10,43 @@ public class StateRoll : MonoBehaviour
     private int[] stateScores;
 
     [SerializeField]
-    private Image diceImage;
+    private Image diceImagePrefab;
     [SerializeField]
     private List<Sprite> diceSpritesVer1;
     [SerializeField]
     private List<Sprite> diceSpritesVer2;
 
-    private float duration = 2f;
+    private float duration = 3f;
     private float fastDelay = 0.05f;
-    private float slowDelay = 0.5f;
+    private float slowDelay = 0.7f;
 
     private Coroutine rollingDiceCoroutine;
     private Image image;
 
     private const int length = 10;
-    private int result;
+    private int result = 0;
 
     void Start()
     {
         stateScores = states.GetComponent<StateAmountController>().StateScores();
 
-        RollingDice(Random.Range(0,8)); // 랜덤 대신 원하는 stateID 넣음 됨
+        RollingDice(Random.Range(0,8)) ; // 랜덤 대신 원하는 stateID 넣음 됨
     }
 
     private bool RollingDice(int stateID) // t:성공, f:실패
     {
+        result = 0;
+
         StartRolling(true);
-        Debug.Log($"{result} {stateID}");
-        if (result != 100)
-        {
-            StartRolling(false);
-            Debug.Log(result);
-        }
 
         bool isSuc = stateScores[stateID] >= result;
-        Debug.Log($"{stateID} {isSuc}");
-        result = 0;
 
         return isSuc;
     }
 
     private void StartRolling(bool diceVer)
     {
-        image = Instantiate(diceImage);
+        image = Instantiate(diceImagePrefab, this.transform);
         if (rollingDiceCoroutine != null)
         {
             StopCoroutine(rollingDiceCoroutine);
@@ -66,8 +60,8 @@ public class StateRoll : MonoBehaviour
         List<Sprite> sprites = diceVer ? diceSpritesVer2 : diceSpritesVer1;
 
         int random = Random.Range(0, length);
-
-        result += diceVer ? random * 10 : random;
+        result += diceVer ? (random+1) * 10 : random;
+        Debug.Log($"{diceVer} {random} {result}");
         Sprite resultSprite = sprites[random];
 
         while (time < duration)
@@ -82,9 +76,10 @@ public class StateRoll : MonoBehaviour
             time += delay;
         }
 
-        diceImage.sprite = resultSprite;
-        yield return new WaitForSeconds(1f);
+        image.sprite = resultSprite;
+        yield return new WaitForSeconds(3f);
 
         rollingDiceCoroutine = null;
+        if (diceVer && result != 100) StartRolling(false);
     }
 }
