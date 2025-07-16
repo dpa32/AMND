@@ -30,10 +30,9 @@ public class StateRoll : MonoBehaviour
     {
         stateScores = states.GetComponent<StateAmountController>().StateScores();
 
-        RollingDice(Random.Range(0,8)) ; // 랜덤 대신 원하는 stateID 넣음 됨
     }
 
-    private bool RollingDice(int stateID) // t:성공, f:실패
+    public bool RollingDice(int stateID) // t:성공, f:실패
     {
         result = 0;
 

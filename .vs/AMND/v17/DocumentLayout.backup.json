@@ -3,51 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\",
   "Documents": [
     {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\assets\\scripts\\trpgsystem\\stateroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\stateroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\assets\\scripts\\trpgsystem\\stateamountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\stateamountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\assets\\scripts\\trpgsystem\\settingwindowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\settingwindowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\assets\\scripts\\trpgsystem\\stateenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|c:\\users\\dpa32\\documents\\github\\amnd\\assets\\scripts\\trpgsystem\\stateenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\stateenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|c:\\users\\dpa32\\documents\\github\\amnd\\assets\\scripts\\trpgsystem\\stateamountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\stateamountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\assets\\scripts\\dialogue\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\assets\\scripts\\dialogue\\csvparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue\\csvparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\assets\\scripts\\dialogue\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Library\\PackageCache\\com.unity.ugui@4027c60e8806\\Editor\\UGUI\\UI\\GraphicEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@4027c60e8806\\Editor\\UGUI\\UI\\GraphicEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|c:\\users\\dpa32\\documents\\github\\amnd\\assets\\scripts\\trpgsystem\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\assets\\scripts\\trpgsystem\\controllstateamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\controllstateamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -57,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,64 +50,68 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+              "DocumentIndex": 6,
+              "Title": "Dialogue.cs",
+              "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\Dialogue\\Dialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue\\Dialogue.cs",
+              "ToolTip": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\Dialogue\\Dialogue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue\\Dialogue.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T07:20:16.499Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "DialogueManager.cs",
+              "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\Dialogue\\DialogueManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue\\DialogueManager.cs",
+              "ToolTip": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\Dialogue\\DialogueManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue\\DialogueManager.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T07:17:25.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CSVParser.cs",
+              "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\Dialogue\\CSVParser.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue\\CSVParser.cs",
+              "ToolTip": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\Dialogue\\CSVParser.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue\\CSVParser.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAD4vysAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T07:17:20.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "GraphicEditor.cs",
               "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Library\\PackageCache\\com.unity.ugui@4027c60e8806\\Editor\\UGUI\\UI\\GraphicEditor.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@4027c60e8806\\Editor\\UGUI\\UI\\GraphicEditor.cs",
               "ToolTip": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Library\\PackageCache\\com.unity.ugui@4027c60e8806\\Editor\\UGUI\\UI\\GraphicEditor.cs",
               "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@4027c60e8806\\Editor\\UGUI\\UI\\GraphicEditor.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAEwDEAAABBAAAAAAAAAA==",
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-              "DocumentIndex": 0,
-              "Title": "StateController.cs",
-              "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\StateController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TRPGSystem\\StateController.cs",
-              "ToolTip": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\StateController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TRPGSystem\\StateController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T20:31:59.971Z"
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
               "DocumentIndex": 0,
               "Title": "StateRoll.cs",
               "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\StateRoll.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TRPGSystem\\StateRoll.cs",
               "ToolTip": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\StateRoll.cs",
               "RelativeToolTip": "Assets\\Scripts\\TRPGSystem\\StateRoll.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAEwE8AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwB4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T18:51:08.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+              "DocumentIndex": 2,
               "Title": "SettingWindowController.cs",
               "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\SettingWindowController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TRPGSystem\\SettingWindowController.cs",
@@ -135,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StateEnum.cs",
               "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\StateEnum.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TRPGSystem\\StateEnum.cs",
@@ -148,51 +137,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "StateAmountController.cs",
               "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\StateAmountController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TRPGSystem\\StateAmountController.cs",
               "ToolTip": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\StateAmountController.cs",
               "RelativeToolTip": "Assets\\Scripts\\TRPGSystem\\StateAmountController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowB4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-=======
-              "DocumentIndex": 1,
-              "Title": "ControllStateAmount.cs",
-              "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
-              "ToolTip": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
->>>>>>> Stashed changes
-=======
-              "Title": "ControllStateAmount.cs",
-              "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
-              "ToolTip": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
->>>>>>> Stashed changes
-=======
-              "Title": "ControllStateAmount.cs",
-              "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
-              "ToolTip": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
->>>>>>> Stashed changes
-=======
-              "Title": "ControllStateAmount.cs",
-              "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
-              "ToolTip": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
->>>>>>> Stashed changes
               "WhenOpened": "2025-07-15T04:38:40.732Z",
               "EditorCaption": ""
             }
