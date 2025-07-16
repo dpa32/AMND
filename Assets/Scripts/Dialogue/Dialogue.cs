@@ -29,8 +29,12 @@ public class Chat
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 public class Dialogue
+=======
+public class Dialogue : MonoBehaviour
+>>>>>>> Stashed changes
 =======
 public class Dialogue : MonoBehaviour
 >>>>>>> Stashed changes
