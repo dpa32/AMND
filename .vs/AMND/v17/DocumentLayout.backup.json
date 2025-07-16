@@ -4,6 +4,7 @@
   "Documents": [
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\assets\\scripts\\trpgsystem\\stateamountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\stateamountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,12 +24,17 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Library\\PackageCache\\com.unity.ugui@4027c60e8806\\Editor\\UGUI\\UI\\GraphicEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@4027c60e8806\\Editor\\UGUI\\UI\\GraphicEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 =======
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|c:\\users\\dpa32\\documents\\github\\amnd\\assets\\scripts\\trpgsystem\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\assets\\scripts\\trpgsystem\\controllstateamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A41B7E9E-73C4-CF0F-C3AC-B86055967892}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trpgsystem\\controllstateamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
   ],
@@ -40,7 +46,11 @@
         {
           "DockedWidth": 200,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           "SelectedChildIndex": 5,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> Stashed changes
 =======
           "SelectedChildIndex": 1,
 >>>>>>> Stashed changes
@@ -51,6 +61,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "DocumentIndex": 4,
               "Title": "GraphicEditor.cs",
@@ -74,6 +85,8 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T18:51:08.232Z",
 =======
+=======
+>>>>>>> Stashed changes
               "DocumentIndex": 0,
               "Title": "StateController.cs",
               "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\StateController.cs",
@@ -83,12 +96,16 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T01:23:20.836Z",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "Title": "SettingWindowController.cs",
               "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\SettingWindowController.cs",
@@ -126,6 +143,8 @@
               "WhenOpened": "2025-07-15T04:38:40.732Z",
               "EditorCaption": ""
 =======
+=======
+>>>>>>> Stashed changes
               "Title": "ControllStateAmount.cs",
               "DocumentMoniker": "C:\\Users\\dpa32\\Documents\\GitHub\\AMND\\Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TRPGSystem\\ControllStateAmount.cs",
@@ -134,6 +153,9 @@
               "ViewState": "AgIAAAwAAAAAAAAAAAAywAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T04:38:40.732Z"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             }
           ]
