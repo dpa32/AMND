@@ -29,6 +29,7 @@ public class StateAmountController : MonoBehaviour
 
     private void Minus(int stateID, int value)
     {
+        Debug.Log("Enter Minus");
         remainingAmount += value;
         remains.text = remainingAmount.ToString();
         stateScores[stateID] -= value;
@@ -41,27 +42,79 @@ public class StateAmountController : MonoBehaviour
         remains.text = remainingAmount.ToString();
         stateScores[stateID] += value;
         stateScoresUI[stateID].text = stateScores[stateID].ToString();
+    } 
+    
+    private void CheckMinus(int stateID, int value)
+    {
+        Debug.Log("Enter CheckMinus");
+        if (stateScores[stateID] == 0)
+        {
+            Debug.Log("최솟값 미만으로 설정 불가");
+            return;
+        }
+
+        if (stateScores[stateID] < value)
+        {
+            Minus(stateID, stateScores[stateID]);
+            return;
+        }
+
+        Minus(stateID, value);
     }
 
+    private void CheckPlus(int stateID, int value)
+    {
+        if (remainingAmount == 0)
+        {
+            Debug.Log("남은 포인트 없음");
+            return;
+        }
+
+        if (remainingAmount < value)
+        {
+            if(stateScores[stateID] == 100)
+            {
+                Debug.Log("최댓값 초과로 설정 불가");
+                return;
+            }
+
+            if (stateScores[stateID] + remainingAmount > 100)
+            {
+                value = 100 - stateScores[stateID];
+                Plus(stateID, value);
+                return;
+            }
+
+            Plus(stateID, remainingAmount);
+            return;
+        }
+
+        if (stateScores[stateID] +  value > 100)
+        {
+            value = 100 - stateScores[stateID];
+        }
+
+        Plus(stateID, value);
+    }
 
     public void OnMinusOneClicked()
     {
-        Minus(ButtonParent(), 1);
+        CheckMinus(ButtonParent(), 1);
     }
 
     public void OnMinusTenClicked()
     {
-        Minus(ButtonParent(), 10);
+        CheckMinus(ButtonParent(), 10);
     }
 
     public void OnPlusOneClicked()
     {
-        Plus(ButtonParent(), 1);
+        CheckPlus(ButtonParent(), 1);
     }
 
     public void OnPlusTenClicked()
     {
-        Plus(ButtonParent(), 10);
+        CheckPlus(ButtonParent(), 10);
     }
 
     private int ButtonParent()
