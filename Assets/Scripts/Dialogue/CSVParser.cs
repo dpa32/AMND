@@ -17,14 +17,22 @@ public class CSVParser : MonoBehaviour
         {
             string[] lineData = textData[line].Split('/');
 
-            Chat chat = new Chat(
-                Int32.Parse(lineData[0]),
-                Int32.Parse(lineData[1]),
-                lineData[2],
-                lineData[3]
-                );
+            if(lineData.Length != 4)
+            {
+                Debug.LogError($"Line{line} : {textData[line]}");
+                Debug.Break();
+            }
+            else
+            {
+                Chat chat = new Chat(
+                    Int32.Parse(lineData[0]),
+                    Int32.Parse(lineData[1]),
+                    lineData[2],
+                    lineData[3]
+                    );
 
-            chats.Add(chat);
+                chats.Add(chat);
+            }
         }
 
         string[] typeData = textData[0].Split('/');
@@ -35,7 +43,7 @@ public class CSVParser : MonoBehaviour
             typeData[2],
             Int32.Parse(typeData[3]),
             (StateEnum)int.Parse(typeData[4]),
-            int.Parse(typeData[5]), 
+            Int32.Parse(typeData[5]), 
             Boolean.Parse(typeData[6]),
             chats
             );

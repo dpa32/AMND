@@ -22,7 +22,7 @@ public class DialogueManager : MonoBehaviour
     private CSVParser CSV;
 
 
-    private int chatIndex;
+    private int chatIndex = 0;
     private bool isProgress = true;
 
     private void Start()
@@ -30,8 +30,7 @@ public class DialogueManager : MonoBehaviour
         gameData = DataManager.Instance.gameData;
         CSV = GetComponent<CSVParser>();
 
-        SetDialogue("test");
-        PresentDialogue();
+        SetDialogue("1_x");
     }
     private void Update()
     {
@@ -83,10 +82,12 @@ public class DialogueManager : MonoBehaviour
         dialogue = CSV.ParseDialog(scrpitName);
 
         isProgress = true;
+        PresentDialogue();
     }
 
     public void PresentDialogue()
-    { 
+    {
+        Debug.Log(chatIndex);
         leftCharacter.sprite = characterSprite[dialogue.Chats[chatIndex].LeftCharacter];
         rightCharacter.sprite = characterSprite[dialogue.Chats[chatIndex].RightCharacter];
         background.sprite = backgroundSprite[dialogue.Background];

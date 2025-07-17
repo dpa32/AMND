@@ -2235,15 +2235,15 @@ MonoBehaviour:
   characterSprite:
   - {fileID: -4421750508742874139, guid: 26a5571050658c14e82ca3335d5a7a99, type: 3}
   - {fileID: -3289566481787148250, guid: af9bd95aaffc6d44494a2e1a5a3b06b3, type: 3}
-  - {fileID: 0}
+  - {fileID: -1657622687479787665, guid: 9e196bfae6218044699f80360ddb08b2, type: 3}
   - {fileID: -1657622687479787665, guid: 9e196bfae6218044699f80360ddb08b2, type: 3}
   backgroundSprite:
   - {fileID: 8800357329980116895, guid: d6a05a2ba2bca954fb9b394f1d89d018, type: 3}
   - {fileID: 6799071237966743871, guid: 55f0994f01807ec4288cc3095f66cd2a, type: 3}
   - {fileID: 6522425352672813703, guid: d2b6461c9791151468cafd96cf6e52a6, type: 3}
   leftCharacter: {fileID: 1964446658}
-  RightCharacter: {fileID: 1824269588}
-  Background: {fileID: 1163287684}
+  rightCharacter: {fileID: 1824269588}
+  background: {fileID: 1163287684}
   nameText: {fileID: 1739841062}
   chatText: {fileID: 1303244119}
   roll: {fileID: 1073805145}
