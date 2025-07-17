@@ -1,13 +1,20 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CSVParser : MonoBehaviour
 {
     public Dialogue ParseDialog(string csvName)
     {
+        if (csvName == "finish")
+        {
+            StartCoroutine(WaitSec());
+            SceneManager.LoadScene("MainScene");
+            return null;
+        }
+
         List<Chat> chats = new List<Chat>();
         TextAsset csvText = Resources.Load<TextAsset>(csvName);
 
@@ -49,5 +56,10 @@ public class CSVParser : MonoBehaviour
             );
 
         return dialogue;
+    }
+
+    IEnumerator WaitSec()
+    {
+        yield return new WaitForSeconds(2f);
     }
 }

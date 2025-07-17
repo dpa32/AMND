@@ -84,6 +84,7 @@ public class DialogueManager : MonoBehaviour
 
     public void SetDialogue(string scrpitName)
     {
+        Debug.Log(scrpitName);
         dialogue = CSV.ParseDialog(scrpitName);
 
         isProgress = true;
