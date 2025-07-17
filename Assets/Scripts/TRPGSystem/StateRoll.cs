@@ -5,6 +5,11 @@ using UnityEngine.UI;
 
 public class StateRoll : MonoBehaviour
 {
+    public bool IsSuccess;
+    public bool IsRolling;
+    public bool IsProgress;
+    public bool IsIdle = true;
+
     [SerializeField]
     private GameObject states;
     private int[] stateScores;
@@ -21,31 +26,31 @@ public class StateRoll : MonoBehaviour
     private float slowDelay = 0.7f;
 
     private Coroutine rollingDiceCoroutine;
-    private Image image;
 
     private const int length = 10;
     private int result = 0;
+    private int stateID = 0;
 
     void Start()
     {
         stateScores = states.GetComponent<StateAmountController>().StateScores();
-
+        IsIdle = true;
     }
 
-    public bool RollingDice(int stateID) // t:성공, f:실패
+    public void RollingDice(int sID) // t:성공, f:실패
     {
         result = 0;
+        IsProgress = true;
+        IsIdle = false;
+        diceImagePrefab.gameObject.SetActive(true);
 
         StartRolling(true);
 
-        bool isSuc = stateScores[stateID] >= result;
-
-        return isSuc;
+        stateID = sID;
     }
 
     private void StartRolling(bool diceVer)
     {
-        image = Instantiate(diceImagePrefab, this.transform);
         if (rollingDiceCoroutine != null)
         {
             StopCoroutine(rollingDiceCoroutine);
@@ -60,7 +65,6 @@ public class StateRoll : MonoBehaviour
 
         int random = Random.Range(0, length);
         result += diceVer ? (random+1) * 10 : random;
-        Debug.Log($"{diceVer} {random} {result}");
         Sprite resultSprite = sprites[random];
 
         while (time < duration)
@@ -69,16 +73,27 @@ public class StateRoll : MonoBehaviour
             float delay = Mathf.Lerp(fastDelay, slowDelay, t);
 
             Sprite sprite = sprites[Random.Range(0, length)];
-            image.sprite = sprite;
+            diceImagePrefab.sprite = sprite;
 
             yield return new WaitForSeconds(delay);
             time += delay;
         }
 
-        image.sprite = resultSprite;
-        yield return new WaitForSeconds(3f);
+        diceImagePrefab.sprite = resultSprite;
+        yield return new WaitForSeconds(1f);
 
         rollingDiceCoroutine = null;
-        if (diceVer && result != 100) StartRolling(false);
+        IsRolling = false;
+
+        if (diceVer && result != 100)
+        {
+            StartRolling(false);
+        }
+        else
+        {
+            diceImagePrefab.gameObject.SetActive(false);
+            IsSuccess = stateScores[stateID] >= result;
+            IsProgress = false;
+        }
     }
 }

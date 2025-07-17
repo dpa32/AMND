@@ -48,7 +48,6 @@ public class CSVParser : MonoBehaviour
             chats
             );
 
-        Debug.Log(dialogue);
         return dialogue;
     }
 }

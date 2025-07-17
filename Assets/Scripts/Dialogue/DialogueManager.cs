@@ -24,6 +24,7 @@ public class DialogueManager : MonoBehaviour
 
     private int chatIndex = 0;
     private bool isProgress = true;
+    private bool isTyping;
 
     private void Start()
     {
@@ -31,6 +32,7 @@ public class DialogueManager : MonoBehaviour
         CSV = GetComponent<CSVParser>();
 
         SetDialogue("1_x");
+        PresentDialogue();
     }
     private void Update()
     {
@@ -42,28 +44,31 @@ public class DialogueManager : MonoBehaviour
 
     public void NextChat()
     {
-        if (isProgress && dialogue != null)
+        if (dialogue != null && roll.IsRolling == false)
         {
             if (chatIndex < dialogue.Chats.Count)
             {
+                StopAllCoroutines();
                 PresentDialogue();
+                isTyping = false;
             }
-            else
+            else if(isTyping == false)
             {
-                chatIndex = 0;
-                isProgress = false;
-
                 if (dialogue.IsRoll)
                 {
-                    if (roll.RollingDice((Int32)dialogue.State)) //성공
+                    Debug.Log($"{roll.IsIdle} {roll.IsProgress}");
+                    if (roll.IsIdle)
                     {
-                        SetDialogue(dialogue.SuceessScript);
-                        PresentDialogue();
+                        roll.RollingDice((Int32)dialogue.State);
                     }
-                    else //실패
+                    else if(!roll.IsIdle && !roll.IsProgress)
                     {
-                        SetDialogue(dialogue.FailScript);
+                        chatIndex = 0;
+
+                        SetDialogue(roll.IsSuccess ? dialogue.SuceessScript : dialogue.FailScript);
                         PresentDialogue();
+
+                        roll.IsIdle = true;
                     }
                 }
                 else
@@ -82,7 +87,6 @@ public class DialogueManager : MonoBehaviour
         dialogue = CSV.ParseDialog(scrpitName);
 
         isProgress = true;
-        PresentDialogue();
     }
 
     public void PresentDialogue()
@@ -99,11 +103,15 @@ public class DialogueManager : MonoBehaviour
 
     private IEnumerator typing(string chat)
     {
+        isTyping = true;
         chatText.text = " ";
         for (int i = 0; i < chat.Length; i++)
         {
             chatText.text += chat[i];
             yield return new WaitForSeconds(0.03f);
+
+
         }
+        isTyping = false;
     }
 }
