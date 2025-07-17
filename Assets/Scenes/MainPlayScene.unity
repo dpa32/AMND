@@ -2233,16 +2233,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterSprite:
-  - Face:
-    - {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-    - {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-    - {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  - Face:
-    - {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-    - {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-    - {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: -4421750508742874139, guid: 26a5571050658c14e82ca3335d5a7a99, type: 3}
+  - {fileID: -3289566481787148250, guid: af9bd95aaffc6d44494a2e1a5a3b06b3, type: 3}
+  - {fileID: 0}
+  - {fileID: -1657622687479787665, guid: 9e196bfae6218044699f80360ddb08b2, type: 3}
+  backgroundSprite:
+  - {fileID: 8800357329980116895, guid: d6a05a2ba2bca954fb9b394f1d89d018, type: 3}
+  - {fileID: 6799071237966743871, guid: 55f0994f01807ec4288cc3095f66cd2a, type: 3}
+  - {fileID: 6522425352672813703, guid: d2b6461c9791151468cafd96cf6e52a6, type: 3}
   leftCharacter: {fileID: 1964446658}
   RightCharacter: {fileID: 1824269588}
+  Background: {fileID: 1163287684}
   nameText: {fileID: 1739841062}
   chatText: {fileID: 1303244119}
   roll: {fileID: 1073805145}
@@ -7469,14 +7470,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.46540874, g: 0.39954898, b: 0.39954898, a: 1}
+  m_Color: {r: 0.8238993, g: 0.8238993, b: 0.8238993, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 6799071237966743871, guid: 55f0994f01807ec4288cc3095f66cd2a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11501,7 +11502,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.36477977, g: 0.36477977, b: 0.36477977, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -11545,7 +11546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8238993, g: 0.6606739, b: 0.6606739, a: 1}
+  m_Color: {r: 0.088050246, g: 0.088050246, b: 0.088050246, a: 0.69411767}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -11717,6 +11718,7 @@ GameObject:
   - component: {fileID: 1824269586}
   - component: {fileID: 1824269587}
   - component: {fileID: 1824269588}
+  - component: {fileID: 1824269589}
   m_Layer: 5
   m_Name: RightChar
   m_TagString: Untagged
@@ -11741,7 +11743,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 558, y: -83.94}
-  m_SizeDelta: {x: 591.7427, y: 912.1202}
+  m_SizeDelta: {x: 591.7427, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1824269587
 CanvasRenderer:
@@ -11771,9 +11773,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1657622687479787665, guid: 9e196bfae6218044699f80360ddb08b2, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -11781,6 +11783,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1824269589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824269585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AspectMode: 1
+  m_AspectRatio: 0.6487552
 --- !u!1 &1846449419
 GameObject:
   m_ObjectHideFlags: 0
@@ -12517,9 +12533,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -4421750508742874139, guid: 26a5571050658c14e82ca3335d5a7a99, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1

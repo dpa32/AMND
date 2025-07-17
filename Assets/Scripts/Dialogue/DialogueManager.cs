@@ -3,18 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 [System.Serializable]
-public class CharacterSprite
-{
-    public Sprite[] Face;
-}
 
 public class DialogueManager : MonoBehaviour
 {
-    [SerializeField] private CharacterSprite[] characterSprite;
-
+    [SerializeField] private Sprite[] characterSprite;
+    [SerializeField] private Sprite[] backgroundSprite;
     [SerializeField] private Image leftCharacter;
-    [SerializeField] private Image RightCharacter;
+    [SerializeField] private Image rightCharacter;
+    [SerializeField] private Image background;
     [SerializeField] private TMP_Text nameText;
     [SerializeField] private TMP_Text chatText;
     [SerializeField] private StateRoll roll;
@@ -33,6 +31,7 @@ public class DialogueManager : MonoBehaviour
         CSV = GetComponent<CSVParser>();
 
         SetDialogue("test");
+        PresentDialogue();
     }
     private void Update()
     {
@@ -48,12 +47,7 @@ public class DialogueManager : MonoBehaviour
         {
             if (chatIndex < dialogue.Chats.Count)
             {
-                leftCharacter.sprite = characterSprite[dialogue.Chats[chatIndex].LeftCharacter].Face[dialogue.Chats[chatIndex].LeftFace];
-                RightCharacter.sprite = characterSprite[dialogue.Chats[chatIndex].RightCharacter].Face[dialogue.Chats[chatIndex].RightFace];
-                nameText.text = dialogue.Chats[chatIndex].Name;
-                chatText.text = dialogue.Chats[chatIndex].Text;
-
-                chatIndex++;
+                PresentDialogue();
             }
             else
             {
@@ -62,21 +56,43 @@ public class DialogueManager : MonoBehaviour
 
                 if (dialogue.IsRoll)
                 {
-                    bool result = roll.RollingDice(Random.Range(0, 8)); // 랜덤 대신 원하는 stateID 넣음 됨
+                    if (roll.RollingDice((Int32)dialogue.State)) //성공
+                    {
+                        SetDialogue(dialogue.SuceessScript);
+                        PresentDialogue();
+                    }
+                    else //실패
+                    {
+                        SetDialogue(dialogue.FailScript);
+                        PresentDialogue();
+                    }
                 }
                 else
                 {
                     SetDialogue(dialogue.SuceessScript);
+                    PresentDialogue();
                     gameData.PlayingScript = dialogue.SuceessScript;
                 }
             }
         }
 
     }
+
     public void SetDialogue(string scrpitName)
     {
         dialogue = CSV.ParseDialog(scrpitName);
 
         isProgress = true;
+    }
+
+    public void PresentDialogue()
+    { 
+        leftCharacter.sprite = characterSprite[dialogue.Chats[chatIndex].LeftCharacter];
+        rightCharacter.sprite = characterSprite[dialogue.Chats[chatIndex].RightCharacter];
+        background.sprite = backgroundSprite[dialogue.Background];
+        nameText.text = dialogue.Chats[chatIndex].Name;
+        chatText.text = dialogue.Chats[chatIndex].Text;
+
+        chatIndex++;
     }
 }

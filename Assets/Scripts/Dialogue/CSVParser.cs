@@ -20,10 +20,8 @@ public class CSVParser : MonoBehaviour
             Chat chat = new Chat(
                 Int32.Parse(lineData[0]),
                 Int32.Parse(lineData[1]),
-                Int32.Parse(lineData[2]),
-                Int32.Parse(lineData[3]),
-                lineData[4],
-                lineData[5]
+                lineData[2],
+                lineData[3]
                 );
 
             chats.Add(chat);
@@ -36,7 +34,9 @@ public class CSVParser : MonoBehaviour
             Int32.Parse(typeData[1]),
             typeData[2],
             Int32.Parse(typeData[3]),
-            Boolean.Parse(typeData[4]),
+            (StateEnum)int.Parse(typeData[4]),
+            int.Parse(typeData[5]), 
+            Boolean.Parse(typeData[6]),
             chats
             );
 
