@@ -92,8 +92,18 @@ public class DialogueManager : MonoBehaviour
         rightCharacter.sprite = characterSprite[dialogue.Chats[chatIndex].RightCharacter];
         background.sprite = backgroundSprite[dialogue.Background];
         nameText.text = dialogue.Chats[chatIndex].Name;
-        chatText.text = dialogue.Chats[chatIndex].Text;
+        StartCoroutine(typing(dialogue.Chats[chatIndex].Text));
 
         chatIndex++;
+    }
+
+    private IEnumerator typing(string chat)
+    {
+        chatText.text = " ";
+        for (int i = 0; i < chat.Length; i++)
+        {
+            chatText.text += chat[i];
+            yield return new WaitForSeconds(0.03f);
+        }
     }
 }
